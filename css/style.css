@@ -1,0 +1,79 @@
+*{ margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+.flag{
+    width: 800px;
+    height: 400px;
+    background: darkgreen;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; 
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 22%;
+    left:38%;
+}
+.fb{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -3%;
+}
+.fb:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.twitter{
+    width: 150px;
+    position: fixed;
+    top: 50%;
+    right: -3%;
+}
+.twitter:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.youtube{
+    width: 150px;
+    position: fixed;
+    top: 60%;
+    right: -3%;
+
+}
+.youtube:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.social-icon{
+    width: 100%;
+    margin-top: 13%;
+    display: flex;
+    background: #dfd5d5 ;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    height: 70px;
+    width: 70px;
+    background: rgb(86, 168, 219);
+    color: whitesmoke;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 70px;
+    font-size: 30px;
+    transition: 1s;
+}
+a:hover{
+    background:rgb(247, 201, 116);
+}
